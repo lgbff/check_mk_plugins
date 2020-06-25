@@ -1,9 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8; py-indent-offset: 4 -*-
 
-register_rulegroup("datasource_programs",
-    _("Datasource Programs"),
-    _("Specialized agents, e.g. check via SSH, ESX vSphere, SAP R/3"))
 group = "datasource_programs"
 
 register_rule(group,
